@@ -1,0 +1,35 @@
+Command line:
+   ALU_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49169
+
+Fri Jan 28 13:47:00 2011
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 494.096 Meg
+
+ Total Signals          : 20
+ Total Nets             : 58
+ Total Signal Drivers   : 12
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 11
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 560
+Total Line Count : 74
+
+** Failure:Mismatch at t=400000 ps Data_tb=0 Data_exp=1 Z_tb='1' Z_exp='1' C_tb='1' C_exp='1'
+User(VHDL) Code Called Simulation Stop
+In process ALU_tb.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 494.096 Meg
+
+Fri Jan 28 13:47:44 2011
+

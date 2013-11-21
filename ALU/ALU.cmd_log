@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/ALU/ALU.ise" -intstyle ise -ifn ALU.xst -ofn ALU.syr

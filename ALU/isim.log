@@ -1,0 +1,22 @@
+ISim log file
+Running: C:\ALU\ALU_tb_vhd_isim_beh.exe -gui -tclbatch isim.cmd -wdb C:/ALU/ALU_tb_vhd_isim_beh.wdb 
+ISim M.70d (signature 0x16fbe694)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 100 ns: Note: No error found (t=100000 ps) (/alu_tb_vhd/).
+at 200 ns: Note: No error found (t=200000 ps) (/alu_tb_vhd/).
+at 300 ns: Note: No error found (t=300000 ps) (/alu_tb_vhd/).
+
+** Failure:Mismatch at t=400000 ps Data_tb=0 Data_exp=1 Z_tb='1' Z_exp='1' C_tb='1' C_exp='1'
+User(VHDL) Code Called Simulation Stop
+In process ALU_tb.vhd:tb 
+ 
+INFO: Simulator is stopped.
